@@ -32,32 +32,33 @@ section p {
 }
 #beef-section div {
   background-color: #c14543;
+  color: white;
 }
 #sushi-section div {
   background-color: #e5d198;
 }
-@media (min-width:992px) {
-    body{
-        padding: 20px;
-    }
-    #chicken-section  {
-        float: left;
-        width: 31%;
-      }
-      #beef-section  {
-        position: absolute;
-        width: 31%;
-        left: 34.5%;
-      }
-      #sushi-section  {
-        width: 31%;
-        float: right;
-      }
+@media (min-width: 992px) {
+  body {
+    padding: 20px;
+  }
+  #chicken-section {
+    float: left;
+    width: 31%;
+  }
+  #beef-section {
+    position: absolute;
+    width: 31%;
+    left: 34.5%;
+  }
+  #sushi-section {
+    width: 31%;
+    float: right;
+  }
 }
 @media (max-width: 767px) {
-    body{
-        padding: 20px;
-    }
+  body {
+    padding: 20px;
+  }
   section {
     width: 100%;
     margin: 0 auto;
@@ -65,23 +66,24 @@ section p {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    body{
-        padding: 20px;
-    }
-    #beef-section {
-        float: right;
-        margin-left: 5px;
-    }
-    #chicken-section{
-        margin-right: 5px;
-    }
-    #chicken-section ,#beef-section {
-        width: 47%;
-        margin: 0 auto;
-        display: inline-block;
-    }
-    #sushi-section{
-        width: 100%;
-        margin-top: 20px;
-    }
+  body {
+    padding: 20px;
   }
+  #beef-section {
+    float: right;
+    margin-left: 5px;
+  }
+  #chicken-section {
+    margin-right: 5px;
+  }
+  #chicken-section,
+  #beef-section {
+    width: 47%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  #sushi-section {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
